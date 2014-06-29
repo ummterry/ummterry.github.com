@@ -152,4 +152,4 @@ Options (specified by the following modifiers) are:
 * ?! Negative look-ahead
 * ?<! Negative look-behind
 * ?(a)b Conditional; if a then b
-* ?(a)b\|c Conditional; if a then b else c
+* ?(a)b|c Conditional; if a then b else c
