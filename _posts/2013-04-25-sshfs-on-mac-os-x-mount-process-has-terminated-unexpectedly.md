@@ -2,7 +2,7 @@
 layout: post
 title: "SSHFS on Mac OS X: Mount process has terminated unexpectedly"
 description: ""
-category: Mac
+category: Other
 tags: [Mac, SSHFS]
 ---
 {% include JB/setup %}
