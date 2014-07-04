@@ -382,7 +382,7 @@ No styleguide reference.
 body {
   font-family: consolas, monaco, monospace;
   font-size: 1em;
-  line-height: 1.625em;
+  line-height: 1.4em;
 }
 /*
 Font size setting
@@ -682,7 +682,7 @@ pre {
 .unit-article li code {
   padding: 2px 5px;
   white-space: nowrap;
-  background-color: #fff04a;
+  background-color: #cccccc;
 }
 .unit-article img {
   display: block;

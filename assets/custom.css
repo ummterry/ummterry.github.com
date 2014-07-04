@@ -187,3 +187,16 @@ footer p {
         clear: both;
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
