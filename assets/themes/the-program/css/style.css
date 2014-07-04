@@ -69,27 +69,6 @@ textarea {
   text-shadow: none;
 }
 /*
-Links from [HTML5 Boilerplate](http://j.mp/rP0wmY)
-
-No styleguide reference.
-*/
-a {
-  color: #00e;
-}
-a:visited {
-  color: #551a8b;
-}
-a:hover {
-  color: #06e;
-}
-a:focus {
-  outline: thin dotted;
-}
-a:hover,
-a:active {
-  outline: 0;
-}
-/*
 Typography from [HTML5 Boilerplate](http://j.mp/rP0wmY)
 
 No styleguide reference.
@@ -424,29 +403,21 @@ h1,
 .h1 {
   font-size: 30px;
   line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px;
 }
 h2,
 .h2 {
   font-size: 30px;
   line-height: 52px;
-  margin-top: 52px;
-  margin-bottom: 26px;
 }
 h3,
 .h3 {
   font-size: 25.888px;
   line-height: 26px;
-  margin-top: 26px;
-  margin-bottom: 26px;
 }
 h4,
 .h4 {
   font-size: 18.541px;
   line-height: 26px;
-  margin-top: 26px;
-  margin-bottom: 26px;
 }
 p,
 ul,
@@ -556,19 +527,7 @@ html {
 .body .unit-body {
   background-color: #fafafa;
 }
-/* LINK */
-a:link {
-  color: #2d2d2d;
-  text-decoration: none;
-}
-a:visited {
-  color: #141414;
-  text-decoration: none;
-}
-a:hover {
-  color: #474747;
-  text-decoration: none;
-}
+
 /* HIGHLIGHTER */
 pre {
   margin-bottom: 1.625em;

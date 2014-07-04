@@ -7,10 +7,12 @@ tags: [Perl Regex]
 ---
 {% include JB/setup %}
 A perl regular expression usually comes in something like this:
+
 {% highlight perl %}
 $string =~ m/PATTERN/i;
 $string =~ s/PATTERN/NEW_PATTERN/i;
 {% endhighlight %}
+
 Here we divide the expression into 4 parts:
 
 * =~	Match Operators, the operator between the variable and the expression
@@ -87,11 +89,11 @@ Options (specified by the following modifiers) are:
 ## Basic Metacharacters
 
 * . Match any single character except \n (unless /s)
-* | OR; (ab|ac) matches ab or ac
+* \| OR; (ab\|ac) matches ab or ac
 * [abc] Match one out of a set of characters
 * [^abc] Match one character not in set
 * [a-z] Match one character from range, often [a-zA-Z]
-* \ Escape next character, such as \/ or \( or \)
+* \ Escape next character, such as \\/ or \\( or \\)
 
 ## Quantifiers
 
@@ -126,7 +128,7 @@ Options (specified by the following modifiers) are:
 
 * ^ Start of string (equivalent: $A unless /m is used)
 * $ End of string (equivalent: $Z unless /m is used)
-* \b Word boundary, similar to: (\w\W|\W\w)
+* \b Word boundary, similar to: (\w\W\|\W\w)
 * \B Anything but a word boundary
 
 ## Subexpressions

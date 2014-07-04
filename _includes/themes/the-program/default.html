@@ -8,66 +8,67 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>{{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='/assets/custom.css' rel="stylesheet" media="all">
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
-	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
 </head>
 <body>
 
-<div id="page" class="hentry">
-	<header class="the-header">
-		<div class="unit-head">
-			<div class="unit-inner unit-head-inner">
-				<nav class="nav-global">
-					<ul>
-						<li class="logo"><a href="/">{{ site.title }}</a></li>
-						<li class="archive"><a href="/archive.html">archive</a></li>
-						<li class="category"><a href="/categories.html">categories</a></li>
-						<li class="tag"><a href="/tags.html">tags</a></li>
-						<li class="projects"><a href="/projects.html">projects</a></li>
-					</ul>
-				</nav>
-			</div><!-- unit-inner -->
-		</div><!-- unit-head -->
-	</header>
-	<div class="body" role="main">
-		<div class="unit-body">
-			<div class="unit-inner unit-body-inner">
-				<div class="entry-content">
-					{{ content }}
-				</div>
-			</div><!-- unit-inner -->
-		</div><!-- unit-body -->
-	</div><!-- body -->
-	<footer class="the-footer">
-		<div class="unit-foot">
-			<div class="unit-inner unit-foot-inner">
-				<div class="misc vcard">
-					<h4>about</h4>
-					<ul>
-						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
-						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
-					</ul>
-					<p class="licence"><a href="/atom.xml">Feeds/RSS</a></p>
+	<div class="brand">Code of Thrones</div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Code of Thrones</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/archive.html">Blog</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    {{ content }}
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center column">
+                	<ul class="list-inline">
+                        <li><a href="http://github.com/ummterry" rel="me" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a></li>
+                        <li><a href="http://linkedin.com/in/tonghui" rel="me" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                        <li><a href="http://weibo.com/sosterry" rel="me" class="btn-social btn-outline"><i class="fa fa-fw fa-weibo"></i></a></li>
+                		<li><a href="http://google.com/+TonghuiLi" rel="me" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a></li>
+                        <li><a href="http://twitter.com/ummterry" rel="me" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a></li></li>
+                        <li><a href="/rss.xml" class="btn-social btn-outline"><i class="fa fa-fw fa-rss"></i></a></li></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center column">
 					<p class="licence">Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
-				</div><!-- misc -->
-			</div><!-- unit-foot-inner -->
-		</div><!-- unit-foot -->
-	</footer>
-</div><!-- page -->
-<script>
-	(function(d, s) {
-		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.src = url; js.id = id;
-		fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
-	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
-	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
-	}(document, 'script'));
-</script>
+					<a href="http://creativecommons.org/licenses/by-nc/3.0/"><img id="licensebutton_slim" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc/3.0/80x15.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
 <script>
 /*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
 (function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
