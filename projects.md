@@ -8,7 +8,7 @@ description: ""
 Here are some of the open source projects that I worked on.
 
 # [Chat Bot](http://chat.lith.me)
-A chat bot that speaks Chinese. Try it out at http://chat.lith.me!
+A chat bot that speaks Chinese. Try it out at [http://chat.lith.me](http://chat.lith.me)!
 
 # [Weixin-PC](http://ummterry.github.io/Weixin)
 
