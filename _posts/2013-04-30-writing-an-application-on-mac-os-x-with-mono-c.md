@@ -2,7 +2,7 @@
 layout: post
 title: "Writing an application on Mac OS X with Mono C#"
 description: ""
-category: Other 
+category: Code 
 tags: [C#, Mac, Mono, Xamarin]
 ---
 {% include JB/setup %}
