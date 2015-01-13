@@ -16,6 +16,10 @@ hr {
   max-width: 400px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .brand,
 .address-bar {
   display: none;
@@ -70,6 +74,26 @@ hr {
   font-weight: 400;
 }
 
+.post-excerpt {
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.btn-continue {
+  color: #428bca;
+  border-radius: 0.3em;
+  border: 1px solid;
+  display: inline-block;
+  margin: 0 0 1em;
+  padding: 0.5em 0.75em;
+}
+.btn-continue:hover,
+.btn-continue:focus,
+.btn-continue:active {
+  background: #428bca;
+  color: #fff;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -81,7 +105,6 @@ hr {
 }
 .btn-outline:hover,
 .btn-outline:focus,
-.btn-outline:active,
 .btn-outline.active {
     border: solid 2px #2c3e50;
     color: #2c3e50;
