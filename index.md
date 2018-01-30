@@ -30,8 +30,7 @@ layout: default
                 <h2 class="intro-text text-center"><strong>About</strong></h2>
 
                 <p>Hi, I’m Terry, a software developer. The avatar above may give some hints about how I look like.</p>
-                <p>I started this blog to share my random thoughts on software development. Although I will try to keep most stuff in English (as a practice), some will still be in Chinese if it only makes sense to Chinese readers. Actually I wish I could also blog freely in Japanese some day :)  - 無理かな？</p>
-                <p>大家好，我叫特李，码农一枚。用英文写博客纯为练习，学艺不精，欢迎拍砖。</p>
+                <p>大家好，我叫特李，码农一枚。学艺不精，欢迎拍砖。</p>
                 <p>宜しくお願い致します。</p>
             </div>
         </div>
